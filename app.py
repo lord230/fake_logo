@@ -85,7 +85,7 @@ with st.sidebar:
     - Hit **Predict**
     - Get prediction and confidence
     
-    Created by `LORD`
+    Created by `Amit, Mandira, Aishik, Anwesha, Soumalaya`
     """)
 
 # Upload image
