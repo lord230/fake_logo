@@ -105,9 +105,9 @@ if uploaded_file is not None:
         st.markdown(f"**Label:** `{label.upper()}`")
 
         if confidence >= threshold:
-            st.success(f"✅ Confidence: {confidence:.2%}")
+            st.success(f"✅ Percentage : {confidence:.2%}")
         else:
-            st.warning(f"⚠️ Low Confidence: {confidence:.2%} (below {threshold:.0%} threshold)")
+            st.warning(f"⚠️ Low Percentage: {confidence:.2%} (below {threshold:.0%} threshold)")
 
 # Footer
 st.markdown('<div class="footer">© 2025 Fake Logo Detector by LORD</div>', unsafe_allow_html=True)
